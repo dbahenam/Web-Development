@@ -1,0 +1,49 @@
+header {
+  margin-bottom: 64px;
+}
+h1 {
+  font-size: 48px;
+  margin: 12px 0px;
+}
+#description {
+  margin-bottom: 0;
+}
+header p {
+  margin-bottom: 36px;
+}
+a {
+  padding: 0 48px;
+  background-color: rgb(167, 1, 78);
+  color: white;
+  border: 1px solid rgb(167, 1, 78); /* just size of border */
+  border-radius: 4px;
+  font-size: 24px;
+  margin: 30px 12px; /* top/bootm left/right or one single value for all directions*/
+}
+a:hover {
+  background-color: rgb(180, 12, 90);
+  text-decoration: none;
+}
+ol {
+  width: 500px;
+  margin: 36px auto 0px auto; /* top right bottom left*/
+  padding: 0px;
+  list-style: none;
+}
+li {
+  padding: 16px;
+  margin: 32px;
+  background-color: rgb(223, 136, 124);
+  border-radius: 6px;
+}
+h2 {
+  color: rgb(78, 13, 5);
+  font-family: "Oswald", sans-serif;
+}
+.highlight-goal {
+  background-color: rgb(223, 117, 103);
+}
+main p {
+  margin: 12px;
+  color: rgb(71, 29, 22);
+}

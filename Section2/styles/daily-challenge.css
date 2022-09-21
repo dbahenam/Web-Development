@@ -1,0 +1,19 @@
+body {
+  margin: 50px; /* top bottom left right*/
+}
+h1 {
+  color: rgb(83, 75, 75);
+}
+p {
+  color: rgb(83, 75, 75);
+}
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px; /*circle because it's half width and height*/
+}
+#todays-challenge {
+  color: rgb(170, 96, 83);
+  font-weight: bold; /* bold text */
+  font-size: 32px;
+}
