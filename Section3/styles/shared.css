@@ -1,7 +1,8 @@
 body {
   text-align: center;
-  background-color: rgb(223, 215, 207);
+  background-color: rgb(224, 188, 180);
   font-family: "Fira Sans", "sans-serif";
+  margin: 50px; /* top bottom left right*/
 }
 h1 {
   font-family: "Oswald", "sans-serif";
@@ -9,6 +10,7 @@ h1 {
 }
 p {
   color: rgb(40, 107, 161);
+  font-size: 24px;
 }
 a {
   color: rgb(167, 1, 78);

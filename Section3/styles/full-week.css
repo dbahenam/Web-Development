@@ -3,22 +3,23 @@ header {
 }
 h1 {
   font-size: 48px;
-  margin: 12px 0px;
+  margin: 0px;
 }
 #description {
-  margin-bottom: 0;
+  margin-bottom: 12px;
 }
 header p {
   margin-bottom: 36px;
 }
 a {
-  padding: 0 48px;
+  padding: 12px 48px;
   background-color: rgb(167, 1, 78);
   color: white;
   border: 1px solid rgb(167, 1, 78); /* just size of border */
   border-radius: 4px;
   font-size: 24px;
-  margin: 30px 12px; /* top/bootm left/right or one single value for all directions*/
+  display: inline-block;
+  margin: 0; /* top/bottom left/right or one single value for all directions*/
 }
 a:hover {
   background-color: rgb(180, 12, 90);
@@ -35,6 +36,7 @@ li {
   margin: 32px;
   background-color: rgb(223, 136, 124);
   border-radius: 6px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
 }
 h2 {
   color: rgb(78, 13, 5);

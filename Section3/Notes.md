@@ -56,4 +56,16 @@
 
 - Block: new line started and width
 - Inline: in line added and only width of content is used
-  - top and bottom margins don't work for them
+  - top and bottom margins don't work for them, unless inline elements like images
+  - padding doesn't move elements
+
+### Margin Collapsing
+
+- Only happens to block elements
+- Largest margin rules
+
+### Box Shadow
+
+- adds 3D look
+- 4 values
+- offset along x axis, offset along y axis, blurr radius, color of shadow
