@@ -1,0 +1,25 @@
+<%- include("includes/head", {title: 'Login'}) %>
+<link rel="stylesheet" href="styles/auth.css">
+<link rel="stylesheet" href="styles/forms.css">
+</head>
+<body>
+  <header id="main-header"><%- include("includes/header") %></header>
+  <main >
+    <form action="/login" method="POST">
+      <input type="hidden" value="<%= csrfToken%>" name="_csrf">
+      <h1>Login</h1>
+      <div class="form-control">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" value="<%=inputData.email%>"/>
+      </div>
+      <div class="form-control">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" value="<%=inputData.password%>"/>
+      </div>
+      <button class="btn">Log In</button>
+      <div id="auth-alternative">
+        <a href="/signup" class="btn btn-alt">Create a new user</a>
+      </div>
+    </form>
+  </main>
+</body>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include("includes/head") %>
+  <link rel="stylesheet" href="styles/restaurants.css" />
+  <body>
+    <!-- render html (- does not escape content as = does)-->
+    <%- include("includes/header") %> <%- include("includes/aside") %>
+    <main>
+      <h1>Recommended restaurants</h1>
+      <% if (numberOfRestaurants === 0) { %>
+      <p>
+        Unfortunately we don't have any restaurants yet - maybe start
+        recommending some?
+      </p>
+      <% } else { %>
+      <p>Find your next favorite restaurants with help of our other users!</p>
+
+      <p>We found <%= numberOfRestaurants %> restaurants.</p>
+
+      <!--Reload page -->
+      <form action="/restaurants" method="GET">
+        <input type="hidden" value="<%= nextOrder %>" name="order" />
+        <button class="btn">Change Order</button>
+      </form>
+
+      <ul id="restaurants-list">
+        <% for (const restaurant of restaurants){ %> <%-
+        include("includes/restaurants/restaurant-item", {restaurant:
+        restaurant}) %>
+        <!-- first restaurant: is the key used in restaurant-item. the second value after
+               the colon is the const restaurant from the for loop-->
+        <% } %>
+      </ul>
+      <% } %>
+    </main>
+  </body>
+</html>

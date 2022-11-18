@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include("includes/head") %>
+  <link rel="stylesheet" href="/styles/restaurants.css" />
+  <body>
+    <!-- render html (- does not escape content as = does)-->
+    <%- include("includes/header") %> <%- include("includes/aside") %>
+    <main>
+      <h1><%= restaurant.name %></h1>
+      <p><%= restaurant.cuisine %> | <%= restaurant.address%></p>
+      <p><%= restaurant.description %></p>
+      <p><a href="<%= restaurant.website%>">View Website</a></p>
+    </main>
+  </body>
+</html>

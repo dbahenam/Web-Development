@@ -1,0 +1,34 @@
+[
+  {
+    "id": "r1",
+    "name": "David's Food",
+    "address": "Oakland",
+    "cuisine": "Mexican",
+    "website": "https://www.davidsfood.com",
+    "description": "It's good!"
+  },
+  {
+    "id": "r2",
+    "name": "Goodies",
+    "address": "SD",
+    "cuisine": "Mexican",
+    "website": "https://Goodies.com",
+    "description": "It's Good"
+  },
+  {
+    "name": "Munich Fines",
+    "address": "Munich",
+    "cuisine": "German",
+    "website": "https://munich.com",
+    "description": "Munich good",
+    "id": "2f521a77-e5b3-4978-8cc1-4ef2a9bb775a"
+  },
+  {
+    "name": "Asteroid",
+    "address": "space",
+    "cuisine": "space food",
+    "website": "https://asteroid.com",
+    "description": "outer space",
+    "id": "61215491-df2d-4395-a79a-bf6df8d2ea11"
+  }
+]
